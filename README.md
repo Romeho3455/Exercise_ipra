@@ -1,7 +1,17 @@
 README.MD <br/><br/>
 
-Duomenu bazės pavadinimas: <b>exercise_ipra</b> <br/>
-Kad sukelti migracijas ir testinius duomenys, yra sukurta komanda: <b>php artisan database:setup</b><br/><br/>
+Clone the Repo:
+> git clone https://github.com/Romeho3455/Exercise_ipra.git
+> cd Exercise_ipra
+> composer install or composer update
+> copy .env.example .env
+> php artisan key:generate
+> php artisan storage:link
+> Set up .env file (database name: exercise_ipra) 
+> Kad sukelti migracijas ir testinius duomenys, yra sukurta komanda: <b>php artisan database:setup</b>
+> php artisan serve
+http://127.0.0.1:8000/
+
 
 <b>Api nuorodų sarašas:</b><br/><br/>
 
