@@ -14,16 +14,18 @@ Clone the Repo: <br/>
 http://127.0.0.1:8000/<br/><br/>
 
 
-<b>Api nuorodų sarašas:</b><br/><br/>
+<b>Api:</b><br/><br/>
 
-tickets.index -> suteikia užduočių sarašą.<br/>
-tickets.store -> naujos užduoties įvedimas.<br/>
-tickets.show -> suteikia informaciją apie pasirinktą užduotį.<br/>
-tickets.update -> atnaujina informaciją<br/>
-tickets.destroy -> ištrina užduotį<br/><br/>
+To look route list use command php artisan route:list <br/><br/>
 
-comment.store -> sukurią komentarą<br/>
-comment.answer -> atsako į komentarą.<br/>
+tickets.index -> takes all data from ticket table.<br/>
+tickets.store -> Store new ticket.<br/>
+tickets.show -> Show selected ticket.<br/>
+tickets.update -> Update selected ticket<br/>
+tickets.destroy -> Delete selected ticket<br/><br/>
+
+comment.store -> Create a new comment<br/>
+comment.answer -> Answer selected comment.<br/>
 
 GET  | api/v1/tickets                                              | tickets.index <br/>
 POST | api/v1/tickets                                              | tickets.store <br/>
@@ -33,4 +35,4 @@ GET  | api/v1/tickets/{ticket}                                     | tickets.sho
 PUT  | api/v1/tickets/{ticket}                                     | tickets.update  <br/>
 DELETE| api/v1/tickets/{ticket}                                    | tickets.destroy <br/><br/><br/>
 
-Api buvo tikrintas naudojant <b>Postman</b> aplikaciją.
+Api checked with <b>Postman</b> aplication.
