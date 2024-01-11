@@ -7,8 +7,9 @@ Clone the Repo: <br/>
 > copy .env.example .env<br/>
 > php artisan key:generate<br/>
 > php artisan storage:link<br/>
-> Set up .env file (database name: exercise_ipra) <br/>
-> Kad sukelti migracijas ir testinius duomenys, yra sukurta komanda: <b>php artisan database:setup</b><br/>
+> database name: exercise_ipra <br/>
+> Create mysql datatable called exercise_ipra <br/>
+> To migrate tables and seed all data use command: <b>php artisan database:setup</b><br/>
 > php artisan serve<br/>
 http://127.0.0.1:8000/<br/><br/>
 
