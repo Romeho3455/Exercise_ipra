@@ -1,16 +1,16 @@
 README.MD <br/><br/>
 
-Clone the Repo:
-> git clone https://github.com/Romeho3455/Exercise_ipra.git
-> cd Exercise_ipra
-> composer install or composer update
-> copy .env.example .env
-> php artisan key:generate
-> php artisan storage:link
-> Set up .env file (database name: exercise_ipra) 
-> Kad sukelti migracijas ir testinius duomenys, yra sukurta komanda: <b>php artisan database:setup</b>
-> php artisan serve
-http://127.0.0.1:8000/
+Clone the Repo: <br/>
+> git clone https://github.com/Romeho3455/Exercise_ipra.git<br/>
+> cd Exercise_ipra<br/>
+> composer install or composer update<br/>
+> copy .env.example .env<br/>
+> php artisan key:generate<br/>
+> php artisan storage:link<br/>
+> Set up .env file (database name: exercise_ipra) <br/>
+> Kad sukelti migracijas ir testinius duomenys, yra sukurta komanda: <b>php artisan database:setup</b><br/>
+> php artisan serve<br/>
+http://127.0.0.1:8000/<br/><br/>
 
 
 <b>Api nuorodų sarašas:</b><br/><br/>
